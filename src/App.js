@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import { RegisterForm } from "./components/register-form/RegisterForm";
 import "./App.css";
 
 function App() {
@@ -13,13 +14,13 @@ function App() {
       width: 500px;
       height: 500px;
       background: white;
-      border-radius: 20px;  
+      border-radius: 20px;
   `;
 
   return(
     <div className="app">
       <Container>
-
+        <RegisterForm />
       </Container>
     </div>
   );
