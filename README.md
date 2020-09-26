@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# chal-3
+Challenge 3 for ACM Development.
 
 ## Available Scripts
 
