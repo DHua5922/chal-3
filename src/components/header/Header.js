@@ -7,16 +7,16 @@ import styled from "styled-components";
  * @return {JSX.Element} Header for the registration form
  */
 export function Header() {
-    const Title = styled.h1`
+    const Title = styled.div`
         margin: 0;
-        font-size: 49px;
-        font-family: Verdana;
+        font-size: 55px;
+        font-family: Berlin Sans FB;
     `; 
 
-    const SubTitle = styled.h2`
-        margin-top: 8px;
-        color: darkgrey;
-        font-size: 19px;
+    const SubTitle = styled.div`
+        color: #C0C0C0;
+        font-weight: bold;
+        font-size: 15px;
         font-family: Arial;
     `;
 
