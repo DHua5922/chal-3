@@ -1,10 +1,25 @@
 import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
+
+// See logs in console for any errors
+Input.propTypes = {
+    placeholder: PropTypes.string.isRequired, // Field placeholder value
+    type: PropTypes.string.isRequired, // Field type
+    defaultValue: PropTypes.string.isRequired, // Default field value
+    leftIcon: PropTypes.any.isRequired, // Icon on left side of input
+    rightIcon: PropTypes.exact({ // Icon on right side of input
+        icon: PropTypes.any.isRequired, // Icon
+        color: PropTypes.string.isRequired, // Color for icon
+        background: PropTypes.string.isRequired, // Background color for icon
+    }),
+};
 
 /**
  * Returns form input.
  * 
- * @return {JSX.Element} form input
+ * @param {any} props Properties for this input
+ * @return {JSX.Element} Form input
  */
 export function Input(props) {
 
@@ -60,7 +75,7 @@ export function Input(props) {
             <Input 
                 placeholder={props.placeholder} 
                 type={props.type}
-                value={props.value}
+                defaultValue={props.defaultValue}
             />
             { RightIcon && <RightIcon /> }
         </InputGroup>

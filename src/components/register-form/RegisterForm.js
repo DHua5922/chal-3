@@ -34,13 +34,13 @@ export function RegisterForm() {
         {
             placeholder: "First",
             type: "text",
-            value: "",
+            defaultValue: "",
             leftIcon: PersonOutline
         },
         {
             placeholder: "Last",
             type: "text",
-            value: "",
+            defaultValue: "",
             leftIcon: PersonOutline
         },
     ];
@@ -51,13 +51,13 @@ export function RegisterForm() {
         {
             placeholder: "Email",
             type: "email",
-            value: "",
+            defaultValue: "",
             leftIcon: Mail
         },
         {
             placeholder: "Password",
             type: "password",
-            value: "",
+            defaultValue: "",
             leftIcon: Key,
             rightIcon: {
                 icon: Check,
@@ -68,7 +68,7 @@ export function RegisterForm() {
         {
             placeholder: "Confirm Password",
             type: "password",
-            value: "11111111111",
+            defaultValue: "11111111111",
             leftIcon: Key,
             rightIcon: {
                 icon: Cross,
@@ -90,7 +90,7 @@ export function RegisterForm() {
                                 <Input
                                     placeholder={input.placeholder}
                                     type={input.type}
-                                    value={input.value}
+                                    defaultValue={input.defaultValue}
                                     leftIcon={input.leftIcon}
                                 />
                                 { index < rowInputProperties.length - 1 &&
@@ -110,7 +110,7 @@ export function RegisterForm() {
                             <Input
                                 placeholder={input.placeholder}
                                 type={input.type}
-                                value={input.value}
+                                defaultValue={input.defaultValue}
                                 leftIcon={input.leftIcon}
                                 rightIcon={input.rightIcon}
                             />
