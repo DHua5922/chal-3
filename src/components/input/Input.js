@@ -17,7 +17,7 @@ export function Input(props) {
         color: grey;
         position: absolute;
         margin-top: 25px;
-        margin-left: 23px;
+        margin-left: 16px;
     `;
 
     const Input = styled.input`
@@ -26,7 +26,7 @@ export function Input(props) {
         padding: 15px 0px;
         margin-top: 15px;
         width: 100%;
-        text-indent: 72px;
+        text-indent: 58px;
         font-family: Arial;
         background: GhostWhite;
         font-weight: bold;
