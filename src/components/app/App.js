@@ -12,7 +12,7 @@ function App() {
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       width: 500px;
-      height: 475px;
+      height: 487px;
       background: white;
       border-radius: 20px;
   `;

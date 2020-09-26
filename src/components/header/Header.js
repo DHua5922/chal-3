@@ -23,6 +23,7 @@ export function Header() {
     const Row = styled.div`
         display: flex;
         justify-content: space-between;
+        margin-bottom: 14px;
     `;
 
     const Logo = styled.img`
