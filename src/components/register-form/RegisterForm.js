@@ -7,6 +7,7 @@ import { PersonOutline } from "@styled-icons/material/PersonOutline";
 import { Key } from "@styled-icons/feather/Key";
 import { Check } from "@styled-icons/boxicons-regular/Check";
 import { Cross } from "@styled-icons/entypo/Cross";
+import { RegisterButton } from "../register-button/RegisterButton";
 
 /**
  * Returns the registration form.
@@ -117,6 +118,8 @@ export function RegisterForm() {
                     )
                 })
             }
+
+            <RegisterButton />
         </Wrapper>
     );
 }
